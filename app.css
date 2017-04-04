@@ -1,0 +1,39 @@
+.astrobook {
+  display: auto;
+}
+
+.astrobook a.are-we-compatible-btn {
+  margin-top: 1em;
+  display: block;
+}
+
+.astrobook .chart span {
+  display: block;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 2px;
+  background-color: #aaa;
+  width: 100%;
+}
+
+.astrobook .chart span i {
+  color: white;
+  font-weight: bolder;
+  margin: 1px 5px;
+  font-style: normal;
+  line-height: 20px;
+}
+.astrobook .chart span.compatability-bar { background-color: #4267b2; }
+.astrobook .chart span.sex-bar { background-color: #fa3e3e; }
+.astrobook .chart span.communication-bar { background-color: #43a735; }
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

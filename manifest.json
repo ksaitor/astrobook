@@ -20,6 +20,9 @@
     }
   ],
   "permissions": [
-    "tabs", "http://*/", "https://*/"
+    "tabs", "http://*/", "https://*/", "storage"
+  ],
+  "web_accessible_resources": [
+    "matches.json"
   ]
 }
