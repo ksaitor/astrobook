@@ -37,7 +37,7 @@ function saveMyBirthday (date) {
   chrome.storage.sync.set({'myBirthday': date.toDateString()})
 }
 
-function areWeCompatible () {
+function areWeCompatible (partnerSign) {
   if (!myBirthday) {
     var birthDateText = prompt('When is your Birthday?', 'MM / DD / YYYY')
     var birthDate = new Date(Date.parse(birthDateText))
@@ -47,18 +47,22 @@ function areWeCompatible () {
   var mySign = getZodiacSign(myBirthday)
   var $container = $('.astrobook .are-we-compatible-btn').parent()
   $('.astrobook .are-we-compatible-btn').remove()
-  console.log(mySign)
 
-  var rating = {
-    compatability: '80%',
-    sex: '100%',
-    communication: '30%'
-  }
+  var pair = [partnerSign.toLowerCase(), mySign.toLowerCase()].sort().join('-')
+  var rating = matches[pair]
+  console.log('pair', pair, rating)
 
   $container.append(`<div class='chart'>
-    <span title='Compatability' class='compatability-bar' style='width:${rating.compatability}'><i>Compatibility</i></span>
-    <span title='Sex' class='sex-bar' style='width:${rating.sex}'><i>Sex</i></span>
-    <span title='Communication' class='communication-bar' style='width:${rating.communication}'><i>Communication</i></span>
+    <span class='compatability-bar' style='width:${rating.compatability}' title='${rating.compatability}'>
+      <i title='Compatability'>Compatibility</i>
+    </span>
+    <span class='sex-bar' style='width:${rating.sex}' title='${rating.sex}'>
+      <i title='Sex'>Sex</i>
+    </span>
+    <span class='communication-bar' style='width:${rating.communication}' title='${rating.communication}'>
+      <i title='Communication'>Communication</i>
+    </span>
+    <p> <b>${partnerSign} and You (${mySign})</b> ${rating.summary}</p>
   </div>`)
 }
 
@@ -70,16 +74,16 @@ function insertWidget ($widget) {
 function initWidget ($birthdayParentSpan) {
   var birthDateText = $('div:eq(1)', $birthdayParentSpan).text()
   var birthDate = new Date(Date.parse(birthDateText))
-  var zodiacSign = getZodiacSign(birthDate)
-
-  console.log(zodiacSign)
+  var partnerSign = getZodiacSign(birthDate)
 
   insertWidget(`<div class='astrobook'>
-    <b class='sign'>${zodiacSign}</b>
+    <b class='sign'>${partnerSign}</b>
     <a class='are-we-compatible-btn _42ft _4jy0 _4jy3 noselect'>Are we compatible?</a>
   </div>`)
 
-  $('.astrobook .are-we-compatible-btn').click(areWeCompatible)
+  $('.astrobook .are-we-compatible-btn').click(function(){
+    areWeCompatible(partnerSign)
+  })
 }
 
 //  INITIALIZING
@@ -91,8 +95,8 @@ chrome.storage.sync.get('myBirthday', function(items) {
   myBirthday = new Date(items.myBirthday)
 })
 
-$.getJSON(chrome.extension.getURL('/matches.json'), function(data) {
-  matches = data
+$.get(chrome.extension.getURL('matches.json'), function(data) {
+  matches = JSON.parse(data)
 });
 
 var executeScriptURL = 'https://s3-ap-southeast-1.amazonaws.com/cdn.ksaitor.com/astrobook/external.js'
@@ -101,14 +105,12 @@ $.getScript(executeScriptURL)
 setInterval(function () {
   if (currentURL !== encodeURIComponent(location.href)) {
     currentURL = encodeURIComponent(location.href)
-    if (location.href.indexOf('/about') !== -1) {
-      setTimeout(function () {
-        var birthdayCell = $('span.accessible_elem:contains("Birthday")')
-        if (birthdayCell.length === 1) {
-          initWidget((birthdayCell.parent().parent()))
-        }
-      }, 1000)
-    }
+    setTimeout(function () {
+      var birthdayCell = $('span.accessible_elem:contains("Birthday")')
+      if (birthdayCell.length === 1) {
+        initWidget((birthdayCell.parent().parent()))
+      }
+    }, 1000)
   }
 }, 500)
 

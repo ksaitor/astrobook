@@ -1,5 +1,548 @@
 {
+  "capricorn-capricorn": {
+    "title": "Capricorn and Capricorn",
+    "summary": "(two partners, each with a Capricorn sun sign) is a match which often gets bad press for being boring, but it can work very well in practice, often with soulmate potential.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aquarius-capricorn": {
+    "title": "Capricorn and Aquarius",
+    "summary": "is a relationship which is often very good as friends or as a casual fling. In the longer term it can be challenging to make work however. The very low scores represent the initial compatibility of this match. But, you're both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "capricorn-pisces": {
+    "title": "Capricorn and Pisces",
+    "summary": "is a great match, with an harmonious (particularly important to both of you) match of Capricorn's practical approach to life and Pisces imagination and romantic nature.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aquarius-aquarius": {
+    "title": "Aquarius and Aquarius",
+    "summary": "is a match almost guaranteed to be best friends, but it doesn't always work as well as lovers.",
+    "compatability": "90%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aquarius-pisces": {
+    "title": "Aquarius and Pisces",
+    "summary": "is a match which is often misjudged by the astrological press. Often it's stated that you're both 'other-worldly' or some such and therefore relate well to each other. Similar interests? Perhaps. Same outlook and relationship style? Absolutely not!",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "pisces-pisces": {
+    "title": "Pisces and Pisces",
+    "summary": "(two partners, each with a Pisces sun sign) is a match which is very dependant on moon signs. It can range from being soulmates to being an emotional disaster.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aries-capricorn": {
+    "title": "Aries and Capricorn",
+    "summary": "can be a challenging relationship to make work. The low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aquarius-aries": {
+    "title": "Aries and Aquarius",
+    "summary": "has solid potential, though it may be challenging in some specific areas...",
+    "compatability": "90%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aries-pisces": {
+    "title": "Aries and Pisces",
+    "summary": "can be a great match if Aries is patient, caring and romantic. In a worst case scenario it can also be a highly destructive one for Pisces if not.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
   "aries-aries": {
-
+    "title": "Aries and Aries",
+    "summary": "(two partners each with the sign Aries) is a fairly unique pairing on a couple of levels, and can be a very solid partnership, as long as you can work as a team and focus your energy and ambitions on external goals, and not let it all dissipate while competing with each other. ",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aries-taurus": {
+    "title": "Aries and Taurus",
+    "summary": "can be a challenging relationship to make work. The very low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "aries-gemini": {
+    "title": "Aries and Gemini",
+    "summary": "is a great match because you have so much in common. You both get bored easily, seek excitement, need personal space and freedom, love debates and like to do everything at 100 miles per hour.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aries-cancer": {
+    "title": "Aries and Cancer",
+    "summary": "can be challenging relationship to make work. The low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores will be much higher.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aries-leo": {
+    "title": "Aries and Leo",
+    "summary": "is a great match, you have much in common and enough subtle differences and competiveness to keep a continuous flame burning.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aries-virgo": {
+    "title": "Aries and Virgo",
+    "summary": "is an unusual and potentially exciting partnership, with particularly strong complimentary skills and personalities, and some scandalous sexual potential..",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aries-libra": {
+    "title": "Aries and Libra",
+    "summary": "is an interesting relationship. The good news is that there's going to be a lot of sexual chemistry, and the bad news is that your preferred styles may need constant compromise to meet both your needs.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aries-scorpio": {
+    "title": "Aries and Scorpio",
+    "summary": "is typically an explosive match, and this relationship is likely to be a cross between an x-rated movie and a medieval battle. It will almost certainly make you redefine the word 'intense'. Not many signs can match you for passion or force of will, but this one can and will.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aries-sagittarius": {
+    "title": "Aries and Sagittarius",
+    "summary": "is a great match, and you have much in common. You're both highly adventurous and curious, active, spontaneous, outgoing and fun loving. Not many other signs can keep up with either of you, but in each other you've not only found someone who can, but who will enjoy the challenge of doing so.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "capricorn-taurus": {
+    "title": "Taurus and Capricorn",
+    "summary": "is a very harmonious match, with similar views on life, finances and many other key areas. This one has soulmate potential, and is one of your most compatible matches!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aquarius-taurus": {
+    "title": "Taurus and Aquarius",
+    "summary": "is often a challenging relationship to make work. The very low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "pisces-taurus": {
+    "title": "Taurus and Pisces",
+    "summary": "is a great match, as long as you can appreciate each others strengths and not try to change each other.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "taurus-taurus": {
+    "title": "Taurus and Taurus",
+    "summary": "(two partners, both with the Taurus sign) is an incredibly solid match, often with the potential of being soulmates",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "gemini-taurus": {
+    "title": "Taurus and Gemini",
+    "summary": "is a challenging match in most respects, as you have little in common and opposite temperaments.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "cancer-taurus": {
+    "title": "Taurus and Cancer",
+    "summary": "is a great match, often with soulmate potential! This is the type of relationship which has the potential to make other couples jealous!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "leo-taurus": {
+    "title": "Taurus and Leo",
+    "summary": "can be a challenging relationship to make work. The low scores represent the initial compatibility of this match. However, you're both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "taurus-virgo": {
+    "title": "Taurus and Virgo",
+    "summary": "is one of the most compatible zodiac matches, and one that very often has soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "libra-taurus": {
+    "title": "Taurus and Libra",
+    "summary": "is a match with a number of challenges, though you may have more in common than it first appears. If you can both adapt to the others style this is a relationship which will improve steadily over time.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "scorpio-taurus": {
+    "title": "Taurus and Scorpio",
+    "summary": "can be a challenging partnership but its one that's worth nurturing as in many ways you're perfect for each other!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "sagittarius-taurus": {
+    "title": "Taurus and Sagittarius",
+    "summary": "is often a very challenging match, with very little in common or much desire to compromise on key issues. The low scores represent the initial compatibility of this match, however you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "capricorn-gemini": {
+    "title": "Gemini and Capricorn",
+    "summary": "can be  a challenging relationship to make work. The low scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match. The low scores represent a high initial challenge, and not a long term pessimistic view.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "aquarius-gemini": {
+    "title": "Gemini and Aquarius",
+    "summary": "is often a perfect match, and one which often has soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "gemini-pisces": {
+    "title": "Gemini and Pisces",
+    "summary": "is often a bittersweet match, with equal parts harmony and frustration. The low scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match. ",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "gemini-gemini": {
+    "title": "Gemini and Gemini",
+    "summary": "(two partners, both with the Gemini sun sign) is a frantic and fun match, with great communication and humor. Often with little time to rest, or love...",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "cancer-gemini": {
+    "title": "Gemini and Cancer",
+    "summary": "is often a hard match to make work. While not impossible, it does have more than its share of challenges to overcome. However, the low scores represent only the initial compatibility of this match. If you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match.The low scores represent a high initial challenge, and not a long term pessimistic view.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "gemini-leo": {
+    "title": "Gemini and Leo",
+    "summary": "can be a fun and harmonious match, often resembling a TV comedy show (in a good way!)",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "gemini-virgo": {
+    "title": "Gemini and Virgo",
+    "summary": "is a relationship which is highly dependant on compromise, however you are both gifted in this area. The low scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "gemini-libra": {
+    "title": "Gemini and Libra",
+    "summary": "is one of your most compatible matches, and in many ways one of the best matched couples in the zodiac.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "gemini-scorpio": {
+    "title": "Gemini and Scorpio",
+    "summary": "is an interesting match. Lots of chemistry, but very different personalities. It's one of the more common matches, and in many ways one of the most challenging. The low scores then represent a high initial challenge, however, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival the scores of any other match.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "gemini-sagittarius": {
+    "title": "Gemini and Sagittarius",
+    "summary": "is a match of strong physical chemistry and similar personalities, yet very different outlooks in some key areas.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "cancer-capricorn": {
+    "title": "Cancer and Capricorn",
+    "summary": "is great for a short term fling, but can be more challenging to make work in the longer term, with the risk of a love-hate outcome if not handled carefully. The low scores below represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aquarius-cancer": {
+    "title": "Cancer and Aquarius",
+    "summary": "can be a challenging relationship to make work. The low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "cancer-pisces": {
+    "title": "Cancer and Pisces",
+    "summary": "is a great match, very often with soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "cancer-cancer": {
+    "title": "Cancer and Cancer",
+    "summary": "(two partners, both of the Cancer sun sign) is a very romantic match, intensely emotional and highly sexual. Often this match has soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "cancer-leo": {
+    "title": "Cancer and Leo",
+    "summary": "can be a challenging match. You're more compatible than with many other signs, however this is still unlikely to be a smooth ride all the time. If you can both adapt to the others style then this is a relationship which will improve steadily over time, and eventually rival any other match.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "cancer-virgo": {
+    "title": "Cancer and Virgo",
+    "summary": "is often a very good match which brings out the best in each of you. Communication and understanding in this relationship is likely to be particularly strong.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "cancer-libra": {
+    "title": "Cancer and Libra",
+    "summary": "can be a challenging relationship to make work. The very low scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match. The low scores then represent a high initial challenge, and not a long term pessimistic view.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "cancer-scorpio": {
+    "title": "Cancer and Scorpio",
+    "summary": "is a match with great emotional intensity, depth and intimacy. It's a match which often has soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "cancer-sagittarius": {
+    "title": "Cancer and Sagittarius",
+    "summary": "can be a challenging relationship to make work. The low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "capricorn-leo": {
+    "title": "Leo and Capricorn",
+    "summary": "is an interesting and complex match. Traditionally considered a poor astrological match it often works well in practice, partly because both of you are too stubborn to accept otherwise!",
+    "compatability": "90%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aquarius-leo": {
+    "title": "Leo and Aquarius",
+    "summary": "is often a challenging and exciting match. The low scores represent the initial compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "leo-pisces": {
+    "title": "Leo and Pisces",
+    "summary": "can sometimes be a difficult match to make work, though it has a lot of potential. The low scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match. The low scores then represent a high initial challenge, and not a long term pessimistic view.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "leo-leo": {
+    "title": "Leo and Leo",
+    "summary": "(two partners both with a Leo sun sign) is a powerful and dramatic match, a playful battle of wills and egos, often with soulmate potential.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "leo-virgo": {
+    "title": "Leo and Virgo",
+    "summary": "is a relationship which often presents a challenge and needs compromise on both sides. The low scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "leo-libra": {
+    "title": "Leo and Libra",
+    "summary": "is a powerful match, you each bring out the best in each other and share a very similar outlook while being constantly fascinated by each others personality. This leads to this being one of the most common zodiac matches, and often has soulmate potential.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "leo-scorpio": {
+    "title": "Leo and Scorpio",
+    "summary": "is the type of relationship which will probably make a good movie. Passionate, volatile, dramatic, intense, explosive and punctuated with some wild make up sex.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "leo-sagittarius": {
+    "title": "Leo and Sagittarius",
+    "summary": "is a great match, often with soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "capricorn-virgo": {
+    "title": "Virgo and Capricorn",
+    "summary": "is a perfect and mature match of mutual respect, support and shared goals.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aquarius-virgo": {
+    "title": "Virgo and Aquarius",
+    "summary": "is often an easy friendship, but can be a harder match to make work as lovers. The low scores represent the initial compatibility of this love match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "pisces-virgo": {
+    "title": "Virgo and Pisces",
+    "summary": "is often a bittersweet match, with equal parts harmony and frustration. ",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "virgo-virgo": {
+    "title": "Virgo and Virgo",
+    "summary": "(two partners, each with a Virgo sun sign) is an incredibly solid match, often with the potential of being soulmates",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "libra-virgo": {
+    "title": "Virgo and Libra",
+    "summary": "is often a hard match to make work. Intellectually you're on a similar page, while emotions and temperaments are further apart.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "scorpio-virgo": {
+    "title": "Virgo and Scorpio",
+    "summary": "is a good match, working well as a team and complimenting each others strengths and weaknesses. ",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "sagittarius-virgo": {
+    "title": "Virgo and Sagittarius",
+    "summary": "can be a very solid match on the surface, however some major differences exist underneath which can be challenging. The low scores represent this initial compatibility issue. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "capricorn-libra": {
+    "title": "Libra and Capricorn",
+    "summary": "can sometimes be a challenging relationship to make work. The scores represent the initial compatibility of this match. However, if you can both adapt to the others style this is a relationship which will improve steadily over time, and eventually rival any other match.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "aquarius-libra": {
+    "title": "Libra and Aquarius",
+    "summary": "is one of the very best matches, often with a good chance of being in the soulmate category!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "libra-pisces": {
+    "title": "Libra and Pisces",
+    "summary": "can be a challenging partnership to make work, and become particularly frustrating as you're both very considerate communicators, yet rarely see eye to eye.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "libra-libra": {
+    "title": "Libra and Libra",
+    "summary": "(two partners, each with a Libra sun sign) is an interesting match. More than most same-sign relationships it highlights both the strengths and weaknesses of Libra. Though you seek and enjoy harmony you really do best with a little less than you might assume.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "libra-scorpio": {
+    "title": "Libra and Scorpio",
+    "summary": "is often a hard match to make work, as most aspects of your personalities are opposite. In many respects this will be a battle between light (you) and dark (your Scorpio). Aside of other things, this can create a lot of sexual chemistry!",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "libra-sagittarius": {
+    "title": "Libra and Sagittarius",
+    "summary": "is typically a great match, full of fun, socializing and excitement. If you can both adapt to the others style this is a relationship which will improve steadily over time.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "capricorn-scorpio": {
+    "title": "Scorpio and Capricorn",
+    "summary": "is a great match, and one which will bring out the best in each other.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "aquarius-scorpio": {
+    "title": "Scorpio and Aquarius",
+    "summary": "is often a hard match to make work. Amongst other things communication is likely to be a major issue. The low scores represent the initial low compatibility of this match. However, you are both strong willed enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "70%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "pisces-scorpio": {
+    "title": "Scorpio and Pisces",
+    "summary": "is one of your very best matches. A perfect union, often with soulmate potential!",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "scorpio-scorpio": {
+    "title": "Scorpio and Scorpio",
+    "summary": "(two partners, each with a Scorpio sun sign) is possibly the most intense and powerful match in the zodiac. It can be many things, but boring certainly wont be one of them.",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "sagittarius-scorpio": {
+    "title": "Scorpio and Sagittarius",
+    "summary": "can be an unusually hard relationship to make work, and complex enough that a small book could be written about it.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "capricorn-sagittarius": {
+    "title": "Sagittarius and Capricorn",
+    "summary": "could be a good match. Your energy harnessed by your Capricorns planning and methodical approach to life can make for a great team. In practice though it can be a challenging relationship to make work on a day to day level, and the low scores represent the initial compatibility of this match.",
+    "compatability": "50%",
+    "sex": "60%",
+    "communication": "60%"
+  },
+  "aquarius-sagittarius": {
+    "title": "Sagittarius and Aquarius",
+    "summary": "is a great match! The Sagittarius inquisitiveness and enthusiasm works perfectly with Aquarius's vision and forward thinking, while overall you have a very similar approach to life. ",
+    "compatability": "90%",
+    "sex": "90%",
+    "communication": "90%"
+  },
+  "pisces-sagittarius": {
+    "title": "Sagittarius and Pisces",
+    "summary": "is one of the harder zodiac pairings to make work. The very low scores represent the initial compatibility of this match, however you are both flexible enough to make this work, and if you succeed the scores would be much higher.",
+    "compatability": "50%",
+    "sex": "75%",
+    "communication": "75%"
+  },
+  "sagittarius-sagittarius": {
+    "title": "Sagittarius and Sagittarius",
+    "summary": "(two partners, each with a Sagittarius sun sign) is an energetic and fun match, often lacking in emotional intensity it more than compensates with great conversation and similar interests and outlooks.",
+    "compatability": "70%",
+    "sex": "90%",
+    "communication": "90%"
   }
 }
