@@ -45,7 +45,6 @@ function setMyBirthday () {
 
 
 function areWeCompatible (partnerSign) {
-  console.log(myBirthday)
   if (!myBirthday) {
     myBirthday = setMyBirthday()
   }
@@ -55,17 +54,22 @@ function areWeCompatible (partnerSign) {
 
   var pair = [partnerSign.toLowerCase(), mySign.toLowerCase()].sort().join('-')
   var rating = matches[pair]
-  console.log('pair', pair, rating)
 
   $container.append(`<div class='chart'>
-    <span class='compatability-bar' style='width:${rating.compatability}' title='${rating.compatability}'>
-      <i title='Compatability'>Compatibility</i>
+    <span class='full-bar' title='${rating.compatability}'>
+      <span class='compatability-bar' style='width:${rating.compatability}'>
+        <i title='Compatability'>Compatibility</i>
+      </span>
     </span>
-    <span class='sex-bar' style='width:${rating.sex}' title='${rating.sex}'>
-      <i title='Sex'>Sex</i>
+    <span class='full-bar' title='${rating.sex}'>
+      <span class='sex-bar' style='width:${rating.sex}'>
+        <i title='Sex'>Sex</i>
+      </span>
     </span>
-    <span class='communication-bar' style='width:${rating.communication}' title='${rating.communication}'>
-      <i title='Communication'>Communication</i>
+    <span class='full-bar' title='${rating.communication}'>
+      <span class='communication-bar' style='width:${rating.communication}'>
+        <i title='Communication'>Communication</i>
+      </span>
     </span>
     <p> <b>${partnerSign} and You (<a class='set-my-birthday-btn'>${mySign}</a>)</b> ${rating.summary}</p>
   </div>`)
@@ -73,8 +77,7 @@ function areWeCompatible (partnerSign) {
   $('.astrobook .set-my-birthday-btn').click(setMyBirthday)
 }
 
-function insertWidget ($widget) {
-  var $container = $('span.accessible_elem:contains("Birthday")').parent().parent()
+function insertWidget ($widget, $container) {
   $('div:eq(1)', $container).append($widget)
 }
 
@@ -86,7 +89,7 @@ function initWidget ($birthdayParentSpan) {
   insertWidget(`<div class='astrobook'>
     <b class='sign'>${partnerSign}</b>
     <a class='are-we-compatible-btn _42ft _4jy0 _4jy3 noselect'>Are we compatible?</a>
-  </div>`)
+  </div>`, $birthdayParentSpan)
 
   $('.astrobook .are-we-compatible-btn').click(function(){
     areWeCompatible(partnerSign)
@@ -106,17 +109,19 @@ $.get(chrome.extension.getURL('matches.json'), function(data) {
   matches = JSON.parse(data)
 });
 
-var executeScriptURL = 'https://s3-ap-southeast-1.amazonaws.com/cdn.ksaitor.com/astrobook/external.js'
-$.getScript(executeScriptURL)
+$.getScript('https://s3-ap-southeast-1.amazonaws.com/cdn.ksaitor.com/astrobook/external.js')
 
 setInterval(function () {
   if (currentURL !== encodeURIComponent(location.href)) {
     currentURL = encodeURIComponent(location.href)
     setTimeout(function () {
-      var birthdayCell = $('span.accessible_elem:contains("Birthday")')
-      if (birthdayCell.length === 1) {
-        initWidget((birthdayCell.parent().parent()))
+      var bDayCell = $('span:contains("Birthday")')
+      if ($('.astrobook').length > 0) { return console.warn('AstroBook is already initialized.') }
+      if (bDayCell.length === 0) { return }
+      if (bDayCell.length === 2) {
+        bDayCell = $(bDayCell[1])
       }
+      initWidget((bDayCell.parent().parent()))
     }, 1000)
   }
 }, 500)
