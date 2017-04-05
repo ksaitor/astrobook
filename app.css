@@ -28,6 +28,10 @@
 .astrobook .chart span.communication-bar { background-color: #43a735; }
 
 
+.uiList._5yql._4kg:focus {
+  outline: none;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
