@@ -33,16 +33,21 @@ function getZodiacSign (birthDate) {
     }
 }
 
-function saveMyBirthday (date) {
-  chrome.storage.sync.set({'myBirthday': date.toDateString()})
+function setMyBirthday () {
+  var birthDateText = prompt('When is your Birthday?', 'MM / DD / YYYY')
+  var birthDate = new Date(Date.parse(birthDateText))
+  if (isNaN(birthDate.getTime())) {
+    return setMyBirthday()
+  }
+  chrome.storage.sync.set({'myBirthday': birthDateText})
+  return birthDate
 }
 
+
 function areWeCompatible (partnerSign) {
+  console.log(myBirthday)
   if (!myBirthday) {
-    var birthDateText = prompt('When is your Birthday?', 'MM / DD / YYYY')
-    var birthDate = new Date(Date.parse(birthDateText))
-    saveMyBirthday(birthDate)
-    myBirthday = birthDate
+    myBirthday = setMyBirthday()
   }
   var mySign = getZodiacSign(myBirthday)
   var $container = $('.astrobook .are-we-compatible-btn').parent()
@@ -62,8 +67,10 @@ function areWeCompatible (partnerSign) {
     <span class='communication-bar' style='width:${rating.communication}' title='${rating.communication}'>
       <i title='Communication'>Communication</i>
     </span>
-    <p> <b>${partnerSign} and You (${mySign})</b> ${rating.summary}</p>
+    <p> <b>${partnerSign} and You (<a class='set-my-birthday-btn'>${mySign}</a>)</b> ${rating.summary}</p>
   </div>`)
+
+  $('.astrobook .set-my-birthday-btn').click(setMyBirthday)
 }
 
 function insertWidget ($widget) {
@@ -92,7 +99,7 @@ $.get('https://api.themeetapp.com/health').done(function(data, status, res){
 })
 
 chrome.storage.sync.get('myBirthday', function(items) {
-  myBirthday = new Date(items.myBirthday)
+  myBirthday = new Date(Date.parse(items.myBirthday))
 })
 
 $.get(chrome.extension.getURL('matches.json'), function(data) {
