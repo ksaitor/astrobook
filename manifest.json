@@ -13,7 +13,9 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.facebook.com/*"
+        "*://*.facebook.com/*",
+        "*://twitter.com/*",
+        "*://*.twitter.com/*"
       ],
       "js": ["jquery.min.js", "app.js"],
       "css": ["app.css"]

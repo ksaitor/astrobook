@@ -23,13 +23,19 @@
   font-style: normal;
   line-height: 20px;
 }
+
 .astrobook .chart span.compatability-bar { background-color: #4267b2; }
-.astrobook .chart span.sex-bar { background-color: #fa3e3e; }
-.astrobook .chart span.communication-bar { background-color: #43a735; }
+/*.astrobook .chart span.sex-bar { background-color: #fa3e3e; }*/
+/*.astrobook .chart span.sex-bar { background-color: #f95979; }*/
+.astrobook .chart span.sex-bar { background-color: #4267b2; }
+/*.astrobook .chart span.communication-bar { background-color: #43a735; }*/
+.astrobook .chart span.communication-bar { background-color: #4267b2; }
 .astrobook .chart span.full-bar {
   background-color: #f6f7f9;
-  width: 100%
+  width: 100%;
+  position: relative;
 }
+
 
 
 .uiList._5yql._4kg:focus {

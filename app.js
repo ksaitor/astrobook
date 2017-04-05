@@ -72,6 +72,7 @@ function areWeCompatible (partnerSign) {
       </span>
     </span>
     <p> <b>${partnerSign} and You (<a class='set-my-birthday-btn'>${mySign}</a>)</b> ${rating.summary}</p>
+    <a class='share-btn _42ft _4jy0 _4jy3 noselect'>Share</a>
   </div>`)
 
   $('.astrobook .set-my-birthday-btn').click(setMyBirthday)
@@ -102,7 +103,9 @@ $.get('https://api.themeetapp.com/health').done(function(data, status, res){
 })
 
 chrome.storage.sync.get('myBirthday', function(items) {
-  myBirthday = new Date(Date.parse(items.myBirthday))
+  if (items.myBirthday) {
+    myBirthday = new Date(Date.parse(items.myBirthday))
+  }
 })
 
 $.get(chrome.extension.getURL('matches.json'), function(data) {
