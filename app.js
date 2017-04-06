@@ -2,6 +2,10 @@ var currentURL = null
 var matches = null
 var myBirthday = null
 
+isInstalledNode = document.createElement('div');
+isInstalledNode.id = 'astrobook-installed';
+document.body.appendChild(isInstalledNode);
+
 function getZodiacSign (birthDate) {
   var day = parseInt(birthDate.getDate())
     var month = parseInt(birthDate.getMonth()) + 1
@@ -147,4 +151,3 @@ setInterval(function () {
     }, 1000)
   }
 }, 500)
-
