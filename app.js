@@ -140,10 +140,10 @@ setInterval(function () {
       var bDayCell = $('span:contains("Birthday")')
       if ($('.astrobook').length > 0) { return console.warn('AstroBook is already initialized.') }
       if (bDayCell.length === 0) { return }
-      if (bDayCell.length === 2) {
+      if (bDayCell.length > 1) {
         bDayCell = $(bDayCell[1])
       }
-      initWidget((bDayCell.parent().parent()))
+      initWidget(bDayCell.parent().parent())
     }, 1000)
   }
 }, 500)
