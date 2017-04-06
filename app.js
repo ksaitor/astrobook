@@ -34,13 +34,28 @@ function getZodiacSign (birthDate) {
 }
 
 function setMyBirthday () {
-  var birthDateText = prompt('When is your Birthday?', 'MM / DD / YYYY')
+  var placeholder = 'MM / DD / YYYY'
+  var birthDateText = prompt('When is your Birthday?', placeholder)
+  if (birthDateText === null || birthDateText === '' || birthDateText === placeholder) {
+    return null;
+  }
+  birthDateText = birthDateText.trim()
   var birthDate = new Date(Date.parse(birthDateText))
   if (isNaN(birthDate.getTime())) {
     return setMyBirthday()
   }
   chrome.storage.sync.set({'myBirthday': birthDateText})
   return birthDate
+}
+
+function share () {
+  // TODO add analytics
+  window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fastrobook.co%2F&amp;src=sdkpreparse','popup','width=560,height=630,left=350,top=150')
+}
+
+function readMore () {
+  // TODO add analytics
+
 }
 
 
@@ -73,9 +88,12 @@ function areWeCompatible (partnerSign) {
     </span>
     <p> <b>${partnerSign} and You (<a class='set-my-birthday-btn'>${mySign}</a>)</b> ${rating.summary}</p>
     <a class='share-btn _42ft _4jy0 _4jy3 noselect'>Share</a>
+    <a class='readmore-btn _42ft _4jy3 noselect hide'>Read more</a>
   </div>`)
 
   $('.astrobook .set-my-birthday-btn').click(setMyBirthday)
+  $('.astrobook .share-btn').click(share)
+  $('.astrobook .readmore-btn').click(readMore)
 }
 
 function insertWidget ($widget, $container) {
@@ -93,6 +111,7 @@ function initWidget ($birthdayParentSpan) {
   </div>`, $birthdayParentSpan)
 
   $('.astrobook .are-we-compatible-btn').click(function(){
+    // TODO add analytics
     areWeCompatible(partnerSign)
   })
 }
