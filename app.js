@@ -2,6 +2,12 @@ var currentURL = null
 var matches = null
 var myBirthday = null
 
+if (chrome && chrome.browserAction) {
+  chrome.browserAction.onClicked.addListener(function() {
+    window.open('https://fb.com/me/about?astrobook=me', "_blank")
+  })
+}
+
 isInstalledNode = document.createElement('div');
 isInstalledNode.id = 'astrobook-installed';
 document.body.appendChild(isInstalledNode);
@@ -118,6 +124,12 @@ function initWidget ($birthdayParentSpan) {
     // TODO add analytics
     areWeCompatible(partnerSign)
   })
+
+  if (location.href.indexOf('astrobook=me') !== -1) {
+    myBirthday = birthDate;
+    chrome.storage.sync.set({'myBirthday': birthDateText})
+    $birthdayParentSpan.parent().parent().addClass('glow')
+  }
 }
 
 //  INITIALIZING

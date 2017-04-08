@@ -37,11 +37,26 @@
 }
 
 
-
 .uiList._5yql._4kg:focus {
   outline: none;
 }
+.glow {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  animation: pulse 3.3s linear 1;
+}
+@keyframes pulse {
+    0%,100% {
+      background: #white;
+    }
+    45%,55% {
+        background: #fee140;
+    }
+}
 
+
+/**/
 .hide {
   display: none!important;
 }
