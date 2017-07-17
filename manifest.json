@@ -3,12 +3,11 @@
   "name": "Astrology and Zodiac on Facebook - AstroBook",
   "short_name": "AstroBook",
   "description": "Are you compatible with your Facebook Friends?",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "icons": { "128": "icon.png" },
   "browser_action": {
     "default_title": "AstroBook"
   },
-  "content_security_policy": "script-src 'self' https://s3-ap-southeast-1.amazonaws.com; object-src 'self'",
   "content_scripts": [
     {
       "matches": [

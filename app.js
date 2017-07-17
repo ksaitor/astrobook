@@ -147,8 +147,6 @@ $.get(chrome.extension.getURL('matches.json'), function(data) {
   matches = JSON.parse(data)
 });
 
-$.getScript('https://s3-ap-southeast-1.amazonaws.com/cdn.ksaitor.com/astrobook/external.js')
-
 setInterval(function () {
   if (currentURL !== encodeURIComponent(location.href)) {
     currentURL = encodeURIComponent(location.href)
